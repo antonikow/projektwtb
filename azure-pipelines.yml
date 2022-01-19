@@ -13,13 +13,7 @@ steps:
 - script: echo Hello, world!
   displayName: 'Powitanie'
 
-<<<<<<< HEAD
-- script: ./tests.py
-
-  displayName: 'Run a multi-line script'
-=======
 - script: |
     python tests.py
     echo See https://aka.ms/yaml
   displayName: 'Wywolanie skryptu'
->>>>>>> 7ee095f160fb67003493d006dd43029d352a3958
