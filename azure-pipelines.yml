@@ -13,7 +13,6 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- script: |
-    python tests.py
-    echo See https://aka.ms/yaml
+- script: ./tests.py
+
   displayName: 'Run a multi-line script'
