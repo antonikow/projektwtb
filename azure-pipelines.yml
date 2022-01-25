@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Let's start unit tests
+- script: echo Lets start unit tests
   displayName: 'Unit tests with Python'
 
 - script: |
