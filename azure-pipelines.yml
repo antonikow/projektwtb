@@ -20,4 +20,8 @@ steps:
 
 - script: |
     python -m pytest tests1.py
-  displayName: 'Tests'
+  displayName: 'Tests 1'
+  
+- script: |
+    python -m pytest tests2.py
+  displayName: 'Tests 2'
